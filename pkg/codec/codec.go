@@ -31,7 +31,7 @@ func NewRTPH264Codec(clockrate uint32) *RTPCodec {
 				SDPFmtpLine:  "level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f",
 				RTCPFeedback: nil,
 			},
-			PayloadType: 106,
+			PayloadType: 109,
 		},
 		Payloader: &codecs.H264Payloader{},
 	}
